@@ -1,10 +1,11 @@
-<h1> Desafio de projeto
+<div align=center>
+<h1> Desafio de projeto</h1>
 
 **Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões**
 
 ![image linux](img/linux.png)
 
-
+</div>
 
 ##
 
@@ -25,31 +26,25 @@ Criando script para:
 
 Executando o script
 
-
-
+```
 ./script.sh
-
-
+```
 
 Verificando se os usuários foram inseridos:
-
-´cat /etc/passwd´
-
+```
+cat /etc/passwd
+```
 Verificando se os grupos foram criados:
-
-´cat /etc/group´
-
-
+```
+cat /etc/group
+```
 
 Verificando as permissões:
-
-´ls -l´
-
-
+```
+ls -l
+```
 
 Verificar se nos grupos apresenta a seguinte informação
-
-
-
-´drwxrwx---´
-
+```
+drwxrwx---
+```
